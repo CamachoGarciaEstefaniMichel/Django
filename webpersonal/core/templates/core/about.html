@@ -1,0 +1,33 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Acerca de Fanny{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/cora2.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Acerca de Fanny </h1>
+<span class="subheading">Biografía</span>
+{% endblock %}
+
+{% block content %}
+<div class="row"> 
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+    <img class="img-fluid avatar" src="https://w7.pngwing.com/pngs/269/372/png-transparent-cartoon-woman-working-web-developer-woman-in-red-sweater.png" alt="Avatar de desarrolladora web">
+
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading"></h2>   
+        <p>Hola, soy Estefani Camacho, nacida en Toluca,
+             México, y actualmente estudiante
+              de la Universidad Tecnológica de Valle de Toluca (UTVT).
+
+Estoy cursando el 9.º 
+cuatrimestre de la Ingeniería en Desarrollo y Gestión de Software, 
+y me emociona saber que estoy cerca de concluir esta etapa
+ tan importante de mi vida. A lo largo de la carrera, 
+ he descubierto una gran pasión por la tecnología, 
+ el aprendizaje constante y la creación de soluciones útiles a través del desarrollo de software.</p>
+       
+    </div>
+</div>
+{% endblock %}

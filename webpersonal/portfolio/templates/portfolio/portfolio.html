@@ -1,0 +1,28 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Portafolio {% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/lila.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Estefani</h1>
+<span class="subheading">Camacho</span>
+{% endblock %}
+
+ {% block content %}
+  <div class="row project">
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+<img class="img-fluid" src="https://www.shutterstock.com/image-vector/latino-couple-woman-salsa-man-600nw-2372634481.jpg" alt="Sticker bailando">
+    </div>
+    <div class="col-lg-7 col-md-8">
+      <h2 class="section-heading title">Habilidades personales y pasatiempos</h2>   
+      <ul>
+        <li>💃 Bailar salsa y cumbia</li>
+        <li>🍳 Cocinar en familia</li>
+        <li>🎧 Escuchar música relajante</li>
+        <li>📚 Aprender cosas nuevas</li>
+        <li>📷 Tomar fotos casuales</li>
+      </ul>
+    </div>
+  </div>
+{% endblock %}
